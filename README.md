@@ -2,7 +2,7 @@
 
 Source repository for themis, a NetFlow scoring and tagging framework for threat detection.
 
-This project is the POC work done as part of my MSc thesis under Prof Barry Irwin of the Computer Science department at Rhodes University, Grahamstown. This project extends the work presented at: http://researchspace.csir.co.za/dspace/handle/10204/9693.
+This project is the POC work done as part of my MSc thesis under Prof Barry Irwin of the Computer Science department at Rhodes University, Grahamstown. This project extends the work presented at http://researchspace.csir.co.za/dspace/handle/10204/9693.
 
 # Notes
 
