@@ -146,27 +146,12 @@ CREATE TABLE suspect_country (
 
 ALTER TABLE suspect_country OWNER TO nfs_user;
 
---
--- Name: id; Type: DEFAULT; Schema: public; Owner: nfs_user
---
-
-ALTER TABLE ONLY django_migrations ALTER COLUMN id SET DEFAULT nextval('django_migrations_id_seq'::regclass);
-
 
 --
 -- Name: id; Type: DEFAULT; Schema: public; Owner: nfs_user
 --
 
 ALTER TABLE ONLY scored_flow_detail ALTER COLUMN id SET DEFAULT nextval('flow_score_detail_id_seq'::regclass);
-
-
---
--- Name: django_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: nfs_user
---
-
-ALTER TABLE ONLY django_migrations
-    ADD CONSTRAINT django_migrations_pkey PRIMARY KEY (id);
-
 
 --
 -- Name: list_known_host_pkey; Type: CONSTRAINT; Schema: public; Owner: nfs_user
